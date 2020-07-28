@@ -29,7 +29,7 @@
                                     <StackLayout>
                                         <Image Source ="{Binding ImageUrl}"
                                                WidthRequest="300" HeightRequest="200" Aspect="AspectFill"/>
-                                        <Label Text="{Binding Name}" FontSize="Titel"/>
+                                        <Label Text="{Binding Name}" FontSize="Title"/>
                                         <Label Text="{Binding ShortDescription}" FontSize="Body"/>
                                         <StackLayout Orientation="Horizontal" Spacing="6"
                                                      HorizontalOptions="CenterAndExpand">
