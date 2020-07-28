@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:helpers ="clr-namespace:FontAwesomeDemo.Helpers"
+             mc:Ignorable="d"
+             xmlns:vm="clr-namespace:FontAwesomeDemo.ViewModel"
+             x:Class="FontAwesomeDemo.View.SpeakerView">
+    <ContentPage.BindingContext>
+        <vm:SpeakerViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <OnPlatform x:Key="MaterialFontFamily" x:TypeArguments="x:String">
+                <On Platform="iOS" Value="Material Design Icons"/>
+            <On Platform="Android" Value="materialdesignicons-webfont.tt#Material Design Icons"/>
+            </OnPlatform>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView ItemsSource="{Binding Speakers}" HasUnevenRows="True" SeparatorVisibility="None">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <ViewCell.View>
+                                <Frame CornerRadius="10" Margin="10" HasShadow="true" BorderColor="DarkBlue">
+                                    <StackLayout>
+                                        <Image Source ="{Binding ImageUrl}"
+                                               WidthRequest="300" HeightRequest="200" Aspect="AspectFill"/>
+                                        <Label Text="{Binding Name}" FontSize="Titel"/>
+                                        <Label Text="{Binding ShortDescription}" FontSize="Body"/>
+                                        <StackLayout Orientation="Horizontal" Spacing="6"
+                                                     HorizontalOptions="CenterAndExpand">
+                                            <ImageButton Source="{FontImage
+                                                FontFamily={StaticResource MaterialFontFamily},
+                                                Glyph={x:Static helpers:IconFont.Youtube},
+                                                Color=DarkRed,Size=size=44}"
+                                                BackgroundColor="Transparent"
+                                                Clicked="IB_Clicked"
+                                                         CommandParameter="{Binding YoutubeUrl}"/>
+                                            <ImageButton Source="{FontImage
+                                                FontFamily={StaticResource MaterialFontFamily},
+                                                Glyph={x:Static helpers:IconFont.Twitter},
+                                                Color=LightBlue,Size=size=44}"
+                                                BackgroundColor="Transparent"
+                                                Clicked="IB_Clicked"
+                                                         CommandParameter="{Binding TwitterUrl}"/>
+                                            <ImageButton Source="{FontImage
+                                                FontFamily={StaticResource MaterialFontFamily},
+                                                Glyph={x:Static helpers:IconFont.Facebook},
+                                                Color=DarkBlue,Size=size=44}"
+                                                BackgroundColor="Transparent"
+                                                Clicked="IB_Clicked"
+                                                         CommandParameter="{Binding FacebookUrl}"/>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </Frame>
+                            </ViewCell.View>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

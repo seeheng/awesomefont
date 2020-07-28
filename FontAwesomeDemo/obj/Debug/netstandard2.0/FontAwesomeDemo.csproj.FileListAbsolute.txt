@@ -1,0 +1,14 @@
+D:\GitHub\FontAwesomeDemo\FontAwesomeDemo\bin\Debug\netstandard2.0\FontAwesomeDemo.deps.json
+D:\GitHub\FontAwesomeDemo\FontAwesomeDemo\bin\Debug\netstandard2.0\FontAwesomeDemo.dll
+D:\GitHub\FontAwesomeDemo\FontAwesomeDemo\bin\Debug\netstandard2.0\ref\FontAwesomeDemo.dll
+D:\GitHub\FontAwesomeDemo\FontAwesomeDemo\bin\Debug\netstandard2.0\FontAwesomeDemo.pdb
+D:\GitHub\FontAwesomeDemo\FontAwesomeDemo\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\GitHub\FontAwesomeDemo\FontAwesomeDemo\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\GitHub\FontAwesomeDemo\FontAwesomeDemo\obj\Debug\netstandard2.0\View\SpeakerView.xaml.g.cs
+D:\GitHub\FontAwesomeDemo\FontAwesomeDemo\obj\Debug\netstandard2.0\FontAwesomeDemo.AssemblyInfoInputs.cache
+D:\GitHub\FontAwesomeDemo\FontAwesomeDemo\obj\Debug\netstandard2.0\FontAwesomeDemo.AssemblyInfo.cs
+D:\GitHub\FontAwesomeDemo\FontAwesomeDemo\obj\Debug\netstandard2.0\FontAwesomeDemo.csproj.CoreCompileInputs.cache
+D:\GitHub\FontAwesomeDemo\FontAwesomeDemo\obj\Debug\netstandard2.0\XamlC.stamp
+D:\GitHub\FontAwesomeDemo\FontAwesomeDemo\obj\Debug\netstandard2.0\FontAwesomeDemo.dll
+D:\GitHub\FontAwesomeDemo\FontAwesomeDemo\obj\Debug\netstandard2.0\ref\FontAwesomeDemo.dll
+D:\GitHub\FontAwesomeDemo\FontAwesomeDemo\obj\Debug\netstandard2.0\FontAwesomeDemo.pdb
