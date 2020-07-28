@@ -36,21 +36,21 @@
                                             <ImageButton Source="{FontImage
                                                 FontFamily={StaticResource MaterialFontFamily},
                                                 Glyph={x:Static helpers:IconFont.Youtube},
-                                                Color=DarkRed,Size=size=44}"
+                                                Color=DarkRed,Size=44}"
                                                 BackgroundColor="Transparent"
                                                 Clicked="IB_Clicked"
                                                          CommandParameter="{Binding YoutubeUrl}"/>
                                             <ImageButton Source="{FontImage
                                                 FontFamily={StaticResource MaterialFontFamily},
                                                 Glyph={x:Static helpers:IconFont.Twitter},
-                                                Color=LightBlue,Size=size=44}"
+                                                Color=LightBlue,Size=44}"
                                                 BackgroundColor="Transparent"
                                                 Clicked="IB_Clicked"
                                                          CommandParameter="{Binding TwitterUrl}"/>
                                             <ImageButton Source="{FontImage
                                                 FontFamily={StaticResource MaterialFontFamily},
                                                 Glyph={x:Static helpers:IconFont.Facebook},
-                                                Color=DarkBlue,Size=size=44}"
+                                                Color=DarkBlue,Size=44}"
                                                 BackgroundColor="Transparent"
                                                 Clicked="IB_Clicked"
                                                          CommandParameter="{Binding FacebookUrl}"/>
